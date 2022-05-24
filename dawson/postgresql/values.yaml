@@ -1,0 +1,11 @@
+resources:
+  requests:
+    memory: 2Gi
+    cpu: 500m
+
+global:
+  storageClass: "postgresql-storage"
+
+primary:
+  persistence:
+    size: 75Gi

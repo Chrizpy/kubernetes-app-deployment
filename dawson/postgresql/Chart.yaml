@@ -1,0 +1,17 @@
+apiVersion: v3
+name: postgres
+description: A Helm chart for PostgreSQL database
+type: application
+version: 0.1.0
+appVersion: 14.3.0
+dependencies:
+  - name: postgresql
+    repository: https://charts.bitnami.com/bitnami
+    version: 11.x.x
+keywords:
+  - database
+  - postgres
+home: https://github.com/chrizpy/kubernetes-app-deployment
+maintainers:
+  - name: Christoffer Akouri
+    url: https://github.com/chrizpy
